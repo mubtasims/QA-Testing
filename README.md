@@ -7,16 +7,22 @@ Our purpose was to prevent mistakes and defects in both developing and productio
 
 # Tools we used:
 Unittest
+
 PyTest
+
 Postman
+
 Jenkins
 
 We started with Waterfall methodology but switched to Agile methodology.
 
 # Strategies: 
 For test routing: writing of pytest cases and later use of Postman
+
 For functions: Postman with database testing
+
 For AWS: We created 
+
 For APIs: Postman to make sure it can connect to the APIs that need testing
 
 
@@ -26,8 +32,11 @@ The testing procedures were to test the routes, APIs, AWS, functions, databases 
 
 # Why we tested them in that way?:
 Why did we test routing? To ensure that each route returned an “OK” (200) message
+
 Why did we test the functions? To ensure that the system is ready for functional use, this means that all the functions are carrying out their task.
+
 Why did we test the AWS part? Because our database lies in the AWS (DynamoDB) and without testing our database, we wouldn’t be able to store any of our user’s or company’s information in the website.
+
 Why did we test APIs? We test the API to ensure that there isn’t any error that would disrupt deployment or services offered by the app.
 
 Postman and Pytest were the most user-friendly testing programs/libraries that seemed fit for us in QA to use. It helped us to learn proper testing techniques.
